@@ -41,17 +41,18 @@ var FunctionFireLimit;
      * @returns {function} debounce function
      */
     FunctionFireLimit.debounce = function (callBack, delay, immediate, scope) {
-        var timeoutId = null, context, args, callNow;
+        var timeoutId = null, context, args, callNow, result;
         var later = function () {
             timeoutId = null;
-            if (!immediate) return callBack.apply(context, args);
+            if (!immediate) result = callBack.apply(context, args);
         };
         delay || (delay = 250);
         return function () {
             context = (scope || this), args = arguments, callNow = immediate && !timeoutId;
             clearTimeout(timeoutId);
             timeoutId = setTimeout(later, delay);
-            if (callNow) return callBack.apply(context, args);
+            if (callNow) result = callBack.apply(context, args);
+            return result;
         };
     };
 
