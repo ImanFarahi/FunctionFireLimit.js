@@ -4,7 +4,7 @@
 +  ###################################################################  +
 -  #  Title:       Javascript Function Fire Rate Limit               #  -
 +  #  File Name:   FunctionFireLimit-1.0.0.js                        #  +
-+  #  Version:     1.0.0                        					 #  +
++  #  Version:     1.0.0                                             #  +
 -  #  License:     MIT License                                       #  -
 +  #  Copyright:   (c) 2019 ImanFarahi - professionalProgrammer.ir   #  +
 -  #  Author:      Iman Farahi                                       #  -
