@@ -25,9 +25,9 @@ Returns a function, that, as long as it continues to be invoked, will not be tri
 FunctionFireLimit.debounce(callBack, delay, immediate, scope);
 ```
 delay, immediate and scope are optinal <br/>
-default delay = 250
-default immediate = false
-default scope = this
+default delay = 250 <br/>
+default immediate = false <br/>
+default scope = this <br/>
 
 
 ### throttle function
@@ -36,9 +36,9 @@ Returns a function, that, when invoked, will only be triggered at most once duri
 ```javascript
 FunctionFireLimit.throttle(callBack, threshhold, immediate, scope);
 ```
-threshhold, immediate and scope are optinal
-default threshhold = 250
-default immediate = false
-default scope = this
+threshhold, immediate and scope are optinal <br/>
+default threshhold = 250 <br/>
+default immediate = false <br/>
+default scope = this <br/>
 
 
