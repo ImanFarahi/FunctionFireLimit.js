@@ -24,7 +24,7 @@ Returns a function, that, as long as it continues to be invoked, will not be tri
 ```javascript
 FunctionFireLimit.debounce(callBack, delay, immediate, scope);
 ```
-delay, immediate and scope are optinal
+delay, immediate and scope are optinal <br/>
 default delay = 250
 default immediate = false
 default scope = this
