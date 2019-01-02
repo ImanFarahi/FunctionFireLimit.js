@@ -43,5 +43,5 @@ default scope = this <br/>
 
 ## License
 
-Licensed under MIT license
+Licensed under MIT license <br/>
 Copyright (c) 2019 ImanFarahi - professionalProgrammer.ir
