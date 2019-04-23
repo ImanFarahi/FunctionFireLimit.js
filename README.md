@@ -1,5 +1,5 @@
 # FunctionFireLimit.js
-function fire rate limit contains debounce and throttle for javascript
+function fire rate limit contains debounce and throttle function for javascript
 
 ## Usage
 ```javascript
